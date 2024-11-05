@@ -1,0 +1,65 @@
+header{
+    color: white;
+    background-color: darkorange;
+}
+#intestazione{
+    display: flex;
+}
+#int1{
+    font-size: 150%;
+}
+h1{
+    text-align: left;
+    margin-left: 20px;
+}
+#img1{
+    width: 130px;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#menu{
+    background-color:orange;
+    width: 200px;
+    height: 500px;
+    color: white;
+    font-size: 25px;
+}
+#testo{
+    margin-left: 2em;
+}
+h2{
+    color:midnightblue
+}
+footer{
+    background-color: darkorange;
+    color: white;
+    text-align: right;
+    margin:0%
+}
+.pedice{
+    margin-right: 1em;
+}
+@media screen and (max-width:700px) {
+    #intestazione{
+        width:100%;
+        display: flex;
+    }
+    #main{
+        display:flex
+    }
+    #menu{
+        width: 100%;
+        height: 20%;
+        display: flex;
+    }
+    #testo{
+        width: 100%;
+        height: 450px;
+    }
+    #footer{
+        width: 100%;
+        display: flex;
+    }
+}
